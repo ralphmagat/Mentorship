@@ -14,7 +14,7 @@ public class Output {
 		enc.setFirstName("Jack");
 		enc.setLastName("Cole");
 		
-		//will add the skills on the arraylist
+		//will add the skills on the arraylists
 		skillSet.add("Java");
 		skillSet.add("MasterWalker");
 		skillSet.add("WeChatMaster");

@@ -68,7 +68,7 @@ public class Encapsulation {
 		enc1.setFirstName("William");
 		enc1.setLastName("Ong");
 		
-		//will add the skills on the arraylist
+		//will add the skills on the arraylists
 		skillSet1.add("Casino");
 		skillSet1.add("Abono");
 		skillSet1.add("Advance Pay");
