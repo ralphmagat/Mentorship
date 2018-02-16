@@ -10,7 +10,7 @@ public class Output {
 		Encapsulation enc = new Encapsulation();
 		List<String> skillSet = new ArrayList();
 		
-		//Set the names
+		//Set the namess
 		enc.setFirstName("Jack");
 		enc.setLastName("Cole");
 		

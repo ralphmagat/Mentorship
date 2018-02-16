@@ -54,7 +54,7 @@ public class Encapsulation {
 		skillSet.add("MasterWalker");
 		skillSet.add("WeChatMaster");
 		
-		//set the skills to array
+		//set the skills to arrays
 		enc.setSkillList(skillSet);
 		
 		System.out.println("Employee: " + enc.getFirstName() +" " + enc.getLastName());
