@@ -10,14 +10,17 @@ public class Output {
 		
 		Encapsulation enc = new Encapsulation();
 		List <String> skillList =  new ArrayList<>();
-		skillList.add("Java");
+		enc.setFirstName(firstName);
+		enc.setLastName(lastName);
+		
+		skillList.add("JAVA");
 		skillList.add("Walker");
 		enc.setSkillList(skillList);
 		
 		firstName = enc.getFirstName();
 		lastName = enc.getLastName();
 		
-		System.out.println("Person name: " + firstName + lastName);
+		System.out.println("Person name: " + firstName +" "+ lastName);
 		System.out.println("Skillset: " + skillList);
 	}
 	
