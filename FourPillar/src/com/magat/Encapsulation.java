@@ -79,7 +79,6 @@ public class Encapsulation {
 		System.out.println("Employee: " + enc1.getFirstName() +" " + enc1.getLastName());
 		System.out.println("Skills: " + skillSet1);
 		
-	//atestsegfdsf
 	}
 
 }
