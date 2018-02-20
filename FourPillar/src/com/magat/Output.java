@@ -5,47 +5,27 @@ import java.util.List;
 
 public class Output {
 	
-	public static void main(String[] args) {
 	
+	public void getPerson (String firstName, String lastName) {
+		
 		Encapsulation enc = new Encapsulation();
-		List<String> skillSet = new ArrayList();
+		List <String> skillList =  new ArrayList<>();
+		skillList.add("Java");
+		skillList.add("Walker");
+		enc.setSkillList(skillList);
 		
-		//Set the namess
-		enc.setFirstName("Jack");
-		enc.setLastName("Cole");
+		firstName = enc.getFirstName();
+		lastName = enc.getLastName();
 		
-		//will add the skills on the arraylist
-		skillSet.add("Java");
-		skillSet.add("MasterWalker");
-		skillSet.add("WeChatMaster");
-		
-		//set the skills to array
-		enc.setSkillList(skillSet);
-		
-		System.out.println("Employee: " + enc.getFirstName() +" " + enc.getLastName());
-		System.out.println("Skills: " + skillSet);
-		
-		
-		Encapsulation enc1 = new Encapsulation();
-		List<String> skillSet1 = new ArrayList();
-		
-		//Set the names
-		enc1.setFirstName("William");
-		enc1.setLastName("Ong");
-		
-		//will add the skills on the arraylist
-		skillSet1.add("Casino");
-		skillSet1.add("Abono");
-		skillSet1.add("Advance Pay");
-		
-		//set the skills to array
-		enc.setSkillList(skillSet1);
-		
-		System.out.println("Employee: " + enc1.getFirstName() +" " + enc1.getLastName());
-		System.out.println("Skills: " + skillSet1);
-		
+		System.out.println("Person name: " + firstName + lastName);
+		System.out.println("Skillset: " + skillList);
+	}
 	
-
-
+	
+	public static void main(String[] args) {
+		
+		Output out = new Output();
+		out.getPerson("Jack", "Cole");
+		
 }
 }
